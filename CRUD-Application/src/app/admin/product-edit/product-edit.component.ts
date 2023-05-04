@@ -24,7 +24,7 @@ export class ProductEditComponent implements OnInit {
     });
 
     this.id = this.route.snapshot.params['id'];
-    console.log('this.id::', this.id);
+    // console.log('this.id::', this.id);
 
     this.productService
       .get(this.id)
