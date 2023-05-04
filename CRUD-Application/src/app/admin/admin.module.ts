@@ -7,6 +7,7 @@ import { ProductsComponent } from './products/products.component';
 import { ProductEditComponent } from './product-edit/product-edit.component';
 import { ProductCreateComponent } from './product-create/product-create.component';
 import { RouterModule } from '@angular/router';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -21,7 +22,9 @@ import { RouterModule } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class AdminModule { }
